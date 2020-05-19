@@ -8,7 +8,7 @@ const GlobalStyle = createGlobalStyle`
         box-sizing: border-box;
     }
 
-    body {
+    body, .App {
         background: #EFEFBB;
         background: -webkit-linear-gradient(to right, #D4D3DD, #EFEFBB);
         background: linear-gradient(to right, #D4D3DD, #EFEFBB);
@@ -21,6 +21,9 @@ const GlobalStyle = createGlobalStyle`
         margin: 0;
     }
 
+    #root {
+      width: 100%;
+    }
 
     h1 {
         letter-spacing: 3px;
