@@ -12,7 +12,7 @@ export const Container = styled.div`
   padding: 20px;
   text-align: center;
   width: 90%;
-  margin: 0 10px;
+  margin: 1rem;
 
   .grid {
   flex: 1 1 50%;
